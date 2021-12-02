@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.Parentbox{
+  width: 90%;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.Foto{
+  float: left;
+  width: 300px;
+  height: 425px;
+  background: #ff4454;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Foto img{
+  width: 300px;
+  height: 300px;
+  margin-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Deskripsi{
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+.Deskripsi .Info{
+  line-height: 1.4;
+  color: rgb(18, 11, 49);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Deskripsi .Genre{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Deskripsi .Title{
+  margin: none;
+  padding: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deskripsi .Cate{
+  color: #0000006b;
+}
+
+.Deskripsi .Button{
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  background: #ff4454;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
+}
+
+.Deskripsi .Button:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(252, 0, 0, 0.705);
+  transition: all 0.8s;
+}
+
+.Review-box{
+  clear: both;
+  overflow: hidden;
+  width: 1200px;
+  padding-bottom: 100px;
+}
+
+.Review-box h2{
+  margin-top: 50px;
+}
+
+.Review-box img{
+  width: 120px;
+  height: 120px;
+  float:left;
+  margin-right: 16px;
+  background: beige;
+}
+
+.Review-box .User p, h3{
+  margin: 0;
+}
+
+.Review-box .User h3{
+  padding-top: 10px;
+  margin-bottom: 8px;
+}
+
+.Review-box .Item{
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
